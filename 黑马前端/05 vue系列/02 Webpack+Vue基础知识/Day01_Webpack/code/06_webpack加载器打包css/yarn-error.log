@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add html-webapck-plugin -D
+
+PATH: 
+  /usr/local/go/bin:/Users/DonokaMark/Documents/WorkSpace:/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin::/Users/DonokaMark/Library/Android/sdk/tools:/Users/DonokaMark/Library/Android/sdk/platform-tools:/Users/DonokaMark/Documents/AndroidSDK/flutter/bin:/usr/local/mysql/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  12.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/html-webapck-plugin: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1184:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+  	"name": "04",
+  	"version": "1.0.0",
+  	"main": "index.js",
+  	"license": "MIT",
+  	"devDependencies": {
+  		"webpack": "^5.31.2",
+  		"webpack-cli": "^4.6.0"
+  	},
+  	"scripts": {
+  		"build": "webpack"
+  	},
+  	"dependencies": {
+  		"jquery": "^3.6.0"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,26 @@
+{
+	"name": "04",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"css-loader": "^6.5.1",
+		"html-webpack-plugin": "^5.5.0",
+		"less": "^4.1.2",
+		"less-loader": "^10.2.0",
+		"style-loader": "^3.3.1",
+		"webpack": "^5.31.2",
+		"webpack-cli": "^4.6.0",
+		"webpack-dev-server": "^4.5.0"
+	},
+	"scripts": {
+		"build": "webpack",
+		"serve": "webpack serve"
+	},
+	"dependencies": {
+		"@babel/core": "^7.16.0",
+		"@babel/preset-env": "^7.16.4",
+		"babel-loader": "^8.2.3",
+		"jquery": "^3.6.0"
+	}
+}
